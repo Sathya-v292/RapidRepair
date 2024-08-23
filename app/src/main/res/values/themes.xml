@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.RapidRepair" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--secondary brand color.-->
+        <item name="colorSecondary">@color/purple</item>
+        <item name="colorSecondaryVariant">@color/purple500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!--status bar color.-->
+        <item name="android:statusBarColor">@color/blue</item>
+        <style name="Theme.RapidRepair" parent="Base.Theme.RapidRepair" />
     </style>
-
-    <style name="Theme.RapidRepair" parent="Base.Theme.RapidRepair" />
 </resources>
+
+
