@@ -29,12 +29,14 @@
         android:layout_width="197dp"
         android:layout_height="44dp"
         android:background="@drawable/custom_edit"
+        android:drawableLeft="@drawable/ic__1"
         android:gravity="center"
         android:text="User name"
+        android:paddingLeft="20sp"
         android:textColor="@color/sky"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="220dp" />
+        tools:layout_editor_absoluteY="224dp" />
 
     <EditText
         android:layout_width="197dp"
@@ -42,6 +44,8 @@
         android:background="@drawable/custom_edit"
         android:gravity="center"
         android:text="Enter email"
+        android:drawableLeft="@drawable/ic_2"
+        android:paddingLeft="20sp"
         android:textColor="@color/sky"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
